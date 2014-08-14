@@ -2,7 +2,7 @@ package Plack::App::JSONRPC;
 use 5.008001;
 use strict;
 use warnings;
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 use parent qw(Plack::Component);
 use JSON::RPC::Spec;
@@ -36,7 +36,7 @@ __END__
 
 =head1 NAME
 
-Plack::App::JSONRPC - Yet another JSON-RPC 2.0 psgi application
+Plack::App::JSONRPC - (DEPRECATED) Yet another JSON-RPC 2.0 psgi application
 
 =head1 SYNOPSIS
 

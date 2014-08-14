@@ -1,5 +1,5 @@
 ---
-abstract: 'Yet another JSON-RPC 2.0 psgi application'
+abstract: '(DEPRECATED) Yet another JSON-RPC 2.0 psgi application'
 author:
   - 'nqounet <mail@nqou.net>'
 build_requires:
@@ -26,7 +26,7 @@ no_index:
 provides:
   Plack::App::JSONRPC:
     file: lib/Plack/App/JSONRPC.pm
-    version: '0.01'
+    version: '0.02'
 requires:
   JSON::RPC::Spec: '0'
   Plack: '0'
@@ -35,4 +35,5 @@ resources:
   bugtracker: https://github.com/nqounet/p5-plack-app-jsonrpc/issues
   homepage: https://github.com/nqounet/p5-plack-app-jsonrpc
   repository: https://github.com/nqounet/p5-plack-app-jsonrpc.git
-version: '0.01'
+version: '0.02'
+x_authority: cpan:NQOUNET
